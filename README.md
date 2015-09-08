@@ -1,22 +1,33 @@
 # hwexercises
-package AreaofaCircle;
+package dollarsintocentsgame;
 
 import java.util.Scanner;
 
-public class AreaofaCircle1 {
+public class dollarsintocents {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		
-				
-				int Radius;
-				Scanner inputRadius = new Scanner(System.in);
-				System.out.println("Input Radius:");
-				Radius = inputRadius.nextInt();
-				System.out.println("The radius is: " + Radius + ". The area of a circle is: " + Math.PI * Math.pow(Radius,  2));
-				
-			
+		       int user;
+		       int dollars;
+		       int cents;
+		       Scanner inputuser = new Scanner(System.in);
+		       System.out.println("Input cents:");
+		       user = inputuser.nextInt();
+		       dollars = user/100;
+		       cents = user%100;
+		       
+		       
+		       int inputNumber;
+		       int calculatedAnswer;
+
+		       
+		    
+		       
+		       System.out.println ("The Cents entered equal: $"+ dollars +"."+ cents);
+		    }
+		
 	}
 
-}
+
