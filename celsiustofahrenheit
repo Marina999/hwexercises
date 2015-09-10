@@ -1,0 +1,20 @@
+'''
+Created on Sep 8, 2015
+
+@author: Maryam
+'''
+
+
+def toFahrenheit(tempC):
+    return tempC * 1.8 + 32
+
+
+def main():
+    tempC = input("Input the temperature in Celsius: ")
+    tempC = float(tempC)
+    print("The temperature in Celsius: ")
+    print(tempC)
+
+    print("The temperature in Fahrenheit is: " toFahrenheit(tempC))
+
+main()
